@@ -10,7 +10,6 @@ jobs:
       MEND_EMAIL: ${{secrets.MEND_EMAIL}}
       MEND_USER_KEY: ${{secrets.MEND_USERKEY}}
       MEND_URL: https://saas-eu.mend.io/
-      MEND_ORG_UUID: ${{secrets.MEND_SCA_ORG}}
     runs-on: ubuntu-latest
     steps:
       # Downloading Mend CLI
