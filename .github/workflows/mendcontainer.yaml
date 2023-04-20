@@ -1,4 +1,4 @@
-name: Mend CLI Scan
+name: Mend CLI Container Scan
 
 on:
   workflow_dispatch
